@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(195, 220, 239);
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho {
+    background-color: #333;
+    color: #EDCE24;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+}
+#cabecalho div {
+    margin-bottom: 100px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 105px;
+    display:inline-flex;
+    
+}
+
+ul li{
+    margin: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    color: #0077cc;
+    text-decoration: underline;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+ul.active{
+    font-weight: bold;
+}
+
+article {
+    margin: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+article p {
+    text-align: justify;
+}
+section{
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #EDCE24;
+    text-align: center;
+    padding: 10px;
+}
